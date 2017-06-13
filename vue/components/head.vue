@@ -8,7 +8,8 @@
             <li>博客</li>
             <li>Error</li>
         </ul>
-        <span class="coco">这是一个自适应的网站哦！缩小屏幕再试试</span>
+        <!--<span class="coco">这是一个自适应的网站哦！缩小屏幕再试试</span>-->
+        <hr class="head-hr">
     </div>
 </template>
 
@@ -18,50 +19,70 @@
 
 <style lang="scss" scoped>
     .head{
-        height: 40px;
-        width: 100%;
-        padding-left: 5%;
+        height: 27px;
+        width: 90%;
+        margin-left: 5%;
         padding-top: 10px;
     }
     .logo{
-        height: 27px;
-        max-width: 100px;
+        height: 30px;
+        max-width: 15%;
         float: left;
+        margin-left: 4%;
     }
     .head-ul{
         list-style: none;
-        margin-left: 10%;
-        margin-top: 3px;
+        margin-left: 19%;
+        height: 27px;
+        width: 85%;
     }
     .head-ul li{
+        height: 27px;
+        width: 19%;
         float: left;
-        margin-left: 8%;
+        font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+        line-height: 27px;
+        text-align: center;
     }
     .coco{
-        margin-left: 10%;
+        position: absolute;
+        top: 15px;
+        left: 74%;
     }
-
+    .head-hr{
+        width: 100%;
+        margin-top: 6px;
+    }
     @media screen and (max-width: 1130px){
         .coco{
             display: none;
         }
-        .head-ul li{
-            margin-left: 10%;
+        .logo{
+            height: 30px;
+            max-width: 20%;
+            float: left;
+            margin-left: 1%;
         }
     }
     @media screen and (max-width: 600px){
         .coco{
             display: none;
         }
-        .head-ul li{
-            margin-left: 3%;
+        .logo{
+            height: 30px;
+            max-width: 20%;
+            float: left;
+            margin-left: 1%;
         }
     }
     @media screen and (max-width: 320px){
         .coco{
             display: none;
         }
-        .head-ul li{
+        .logo{
+            height: 30px;
+            max-width: 20%;
+            float: left;
             margin-left: 1%;
         }
     }
