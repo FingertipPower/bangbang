@@ -1,9 +1,16 @@
 <template>
-  <p>999988888</p>
+  <div>
+    <index-head></index-head>
+  </div>
 </template>
 
 <script>
-
+  import head from './head.vue'
+  export default{
+      components:{
+          'indexHead':head
+      }
+  }
 </script>
 
 <style lang="scss">
