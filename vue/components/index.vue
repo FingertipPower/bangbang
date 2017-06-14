@@ -8,7 +8,8 @@
   import head from './head.vue'
   export default{
       components:{
-          'indexHead':head
+          'indexHead':head,
+          'indexCanvas':canvas
       }
   }
 </script>

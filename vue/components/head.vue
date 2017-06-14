@@ -1,6 +1,6 @@
 <template>
     <div class="head">
-        <img src="../src/assets/coder.jpg" alt="logo" class="logo">
+        <img src="../src/assets/img/coder.jpg" alt="logo" class="logo">
         <ul class="head-ul">
             <li>首页</li>
             <li>简历</li>
@@ -73,6 +73,9 @@
             max-width: 20%;
             float: left;
             margin-left: 1%;
+        }
+        .head{
+            width: 92%;
         }
     }
     @media screen and (max-width: 320px){
