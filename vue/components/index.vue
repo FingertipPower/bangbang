@@ -1,19 +1,64 @@
 <template>
   <div>
     <index-head></index-head>
+    <h1 class="title">I am a Web Coder</h1>
+    <div class="word">
+      <p>{{oldMsg}}<span class="cursor">|</span></p>
+    </div>
   </div>
 </template>
 
 <script>
   import head from './head.vue'
   export default{
+      data:function(){
+          return{
+              oldMsg:"",
+              newMsg:"欢迎来到我的个人网站，此网站是用vue+ci创建的，并且它还是自适应的哦！！！",
+              msgLength:1
+          }
+      },
       components:{
-          'indexHead':head,
-          'indexCanvas':canvas
+          'indexHead':head
+      },
+      methods:{
+          typing(){
+              this.oldMsg = this.newMsg.slice(0,this.msgLength++);
+          }
+      },
+      mounted:function(){
+         setInterval(this.typing,200);
       }
   }
 </script>
 
-<style lang="scss">
-
+<style lang="scss" scoped>
+  .cursor{
+    font-size: 1.8em;
+  }
+  .title{
+    text-align: center;
+    font-family: 'Arial';
+    margin-top: 10%;
+    color: rgba(98, 39, 116, 1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(98, 39, 116, 1)), to(rgba(197, 51, 100, 1)));
+  }
+  h1 {
+     font-size: 2.5em;
+  }
+  .word p{
+    font-family: Helvetica, Arial, "华文细黑", "微软雅黑";
+    font-weight: 900;
+    margin-left: 5%;
+    margin-top: 20%;
+    font-size: 1.1em;
+    color: rgba(98, 39, 116, 1);
+  }
+  @media screen and (max-width: 600px){
+    .word p{
+      margin-top: 50%;
+    }
+  }
 </style>
