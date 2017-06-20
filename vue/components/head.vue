@@ -3,12 +3,11 @@
         <img src="../src/assets/img/coder.jpg" alt="logo" class="logo">
         <ul class="head-ul">
             <li>首页</li>
-            <li>简历</li>
+            <li><router-link :to="'/resume'">简历</router-link></li>
             <li>GitHub</li>
             <li>博客</li>
             <li>Error</li>
         </ul>
-        <!--<span class="coco">这是一个自适应的网站哦！缩小屏幕再试试</span>-->
         <hr class="head-hr">
     </div>
 </template>
@@ -18,6 +17,7 @@
 </script>
 
 <style lang="scss" scoped>
+    a{text-decoration: none}
     .head{
         height: 27px;
         width: 90%;

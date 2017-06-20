@@ -1,6 +1,7 @@
 <template>
   <div>
     <index-head></index-head>
+    <router-view></router-view>
     <h1 class="title">I am a Web Coder</h1>
     <div class="word">
       <p>{{oldMsg}}<span class="cursor" v-show="toFlicker">|</span></p>
