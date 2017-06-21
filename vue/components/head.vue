@@ -21,7 +21,9 @@
                 canvas.className = "canvas";
                 canvas.setAttribute("id","canvas");
                 document.body.appendChild(canvas);
-                console.log(1111);
+                var Ajs = document.createElement("script");
+                Ajs.src = "../src/assets/js/canvas.js";
+                document.body.appendChild(Ajs);
             }
         }
     }
