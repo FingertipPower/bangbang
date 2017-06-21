@@ -2,18 +2,29 @@
     <div class="head">
         <img src="../src/assets/img/coder.jpg" alt="logo" class="logo">
         <ul class="head-ul">
-            <li>首页</li>
+            <li @click="foundCanvas"><router-link :to="'/homepage'">首页</router-link></li>
             <li><router-link :to="'/resume'">简历</router-link></li>
             <li>GitHub</li>
             <li>博客</li>
             <li>Error</li>
+            <li>组件</li>
         </ul>
         <hr class="head-hr">
     </div>
 </template>
 
 <script>
-
+    export default{
+        methods:{
+            foundCanvas(){
+                var canvas = document.createElement("canvas");
+                canvas.className = "canvas";
+                canvas.setAttribute("id","canvas");
+                document.body.appendChild(canvas);
+                console.log(1111);
+            }
+        }
+    }
 </script>
 
 <style lang="scss" scoped>
@@ -38,7 +49,7 @@
     }
     .head-ul li{
         height: 27px;
-        width: 19%;
+        width: 14%;
         float: left;
         font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
         line-height: 27px;
