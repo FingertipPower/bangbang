@@ -4,7 +4,7 @@
         <ul class="head-ul">
             <li @click="foundCanvas"><router-link :to="'/homepage'">首页</router-link></li>
             <li><router-link :to="'/resume'">简历</router-link></li>
-            <li>GitHub</li>
+            <li><a href="https://github.com/fingertippower">GitHub</a></li>
             <li>博客</li>
             <li>Error</li>
             <li>组件</li>
