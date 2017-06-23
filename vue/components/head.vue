@@ -17,6 +17,7 @@
     export default{
         methods:{
             foundCanvas(){
+
                 var canvas = document.createElement("canvas");
                 canvas.className = "canvas";
                 canvas.setAttribute("id","canvas");
