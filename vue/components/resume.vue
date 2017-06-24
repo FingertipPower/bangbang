@@ -1,18 +1,31 @@
 <template>
     <div>
-        <p>99999</p>
+        <div id="resume">
+            <div class="resume-left">
+
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
     export default{
         mounted:function(){
-            var canvas = document.getElementById("canvas");
-            document.body.removeChild(canvas);
+
         }
     }
 </script>
 
 <style lang="scss" scoped>
-
+    #resume{
+        width: 90%;
+        height: 500px;
+        margin-top: 60px;
+        margin-left: 5%;
+    }
+    .resume-left{
+        background-color: #fafafa;
+        width: 75%;
+        height: 500px;
+    }
 </style>

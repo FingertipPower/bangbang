@@ -74,4 +74,7 @@ function loop(){
     requestAnimationFrame(loop);
     begin();
 }
-loop();
+window.onload = function () {
+    loop();
+}
+

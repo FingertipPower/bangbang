@@ -3,7 +3,7 @@
         <img src="../src/assets/img/coder.jpg" alt="logo" class="logo">
         <ul class="head-ul">
             <li @click="foundCanvas"><router-link :to="'/homepage'">首页</router-link></li>
-            <li><router-link :to="'/resume'">简历</router-link></li>
+            <li @click="removeCanvas"><router-link :to="'/resume'">简历</router-link></li>
             <li><a href="https://github.com/fingertippower">GitHub</a></li>
             <li>博客</li>
             <li>Error</li>
@@ -17,14 +17,26 @@
     export default{
         methods:{
             foundCanvas(){
+                if(document.getElementById("canvas")){
 
-                var canvas = document.createElement("canvas");
-                canvas.className = "canvas";
-                canvas.setAttribute("id","canvas");
-                document.body.appendChild(canvas);
-                var Ajs = document.createElement("script");
-                Ajs.src = "../src/assets/js/canvas.js";
-                document.body.appendChild(Ajs);
+                }else{
+                    var canvas = document.createElement("canvas");
+                    canvas.className = "canvas";
+                    canvas.setAttribute("id","canvas");
+                    document.body.appendChild(canvas);
+                    var Ajs = document.createElement("script");
+                    Ajs.src = "../src/assets/js/canvas.js";
+                    Ajs.setAttribute("id","script");
+                    document.body.appendChild(Ajs);
+                }
+            },
+            removeCanvas(){
+                if(document.getElementById("script")){
+                    var canvas = document.getElementById("canvas");
+                    var Ascript = document.getElementById("script");
+                    document.body.removeChild(canvas);
+                    document.body.removeChild(Ascript);
+                }
             }
         }
     }
