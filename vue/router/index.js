@@ -12,6 +12,11 @@ export default new Router({
             component: Resume
         },
         {
+            path: '/',
+            name: 'homepage',
+            component: Homepage
+        },
+        {
             path: '/homepage',
             name: 'homepage',
             component: Homepage
