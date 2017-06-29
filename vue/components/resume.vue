@@ -70,6 +70,7 @@
     .resume-left-article{
         font-size: .9em;
     }
+
     @media screen and (max-width: 600px){
         .resume-left-title{
             font-size: 1.5em;
