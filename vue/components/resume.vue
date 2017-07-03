@@ -51,6 +51,7 @@
         width: 25%;
         height: 500px;
         float: left;
+
     }
     .resume-left-title{
         font-size: 2.3em;
