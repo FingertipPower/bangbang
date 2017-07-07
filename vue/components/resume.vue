@@ -26,6 +26,7 @@
 <script>
     export default{
         mounted:function(){
+
         }
     }
 </script>
