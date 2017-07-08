@@ -12,7 +12,25 @@
                 <div class="project">
                     <div class="project-title">
                         <div class="project-title-imgbox"><img src="../src/assets/img/1.png" class="project-img"></div>
-                        <span>项目经历</span>
+                        <span class="project-title-word">项目经历</span>
+                        <hr class="left-hr">
+                    </div>
+                    <div class="project-body">
+
+                        <p class="project-body-title">个人网站</p>
+                        <p class="project-body-word">在2016-2017年中制作了一个个人的网站运用的技术是VUE+ci的网站架构。
+                            在2016-2017年中制作了一个个人的网站运用的技术是VUE+ci的网站架构。
+                            在2016-2017年中制作了一个个人的网站运用的技术是VUE+ci的网站架构。
+                            在2016-2017年中制作了一个个人的网站运用的技术是VUE+ci的网站架构。
+                            在2016-2017年中制作了一个个人的网站运用的技术是VUE+ci的网站架构。</p>
+
+                        <p class="project-body-title">个人网站</p>
+                        <p class="project-body-word">在2016-2017年中制作了一个个人的网站运用的技术是VUE+ci的网站架构。
+                            在2016-2017年中制作了一个个人的网站运用的技术是VUE+ci的网站架构。
+                            在2016-2017年中制作了一个个人的网站运用的技术是VUE+ci的网站架构。
+                            在2016-2017年中制作了一个个人的网站运用的技术是VUE+ci的网站架构。
+                            在2016-2017年中制作了一个个人的网站运用的技术是VUE+ci的网站架构。</p>
+
                     </div>
                 </div>
             </div>
@@ -99,21 +117,64 @@
         line-height: 40px;
     }
     .project-title-imgbox{
-        width: 6%;
+        width: 5%;
         height: 80.3%;
         background-color: rgba(197, 51, 100, 1);
         border-radius: 20px;
+        margin-top: 3px;
         float: left;
+        margin-right: 10px;
+    }
+    .project-title-word{
+        float: left;
+        font-family:"Comic Sans MS","幼圆","黑体",sans-serif;
+        color: rgba(98, 39, 116, 1);
+        font-size: 1.2em;
+        margin-right: 3%;
+    }
+    .left-hr{
+        float: left;
+        width: 70%;
+        border: 2px solid #a9a9a9;
+        margin-top: 18px;
     }
     @media screen and (max-width: 600px){
-        .project-title-imgbox{
+        .project-title .project-title-imgbox{
             width: 15%;
-            height: 15%;
+            height: 65%;
+        }
+        .project-title-word{
+            font-size: .4em;
+        }
+        .left-hr{
+            width: 47%;
         }
     }
     @media screen and (max-width: 1200px){
         .project-title-imgbox{
-            width: 8.3%;
+            width: 7.3%;
+        }
+    }
+    .project-body{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .project-body-title{
+        margin-top: 10px;
+        font-family:"Comic Sans MS","幼圆","黑体",sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+    }
+    .project-body-word{
+        font-size: .9em;
+    }
+    @media screen and (max-width: 600px){
+        .project-body-title{
+            font-size: .4em;
+        }
+        .project-body-word{
+            font-size: .3em;
         }
     }
 </style>
