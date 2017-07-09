@@ -72,7 +72,8 @@
                 </div>
             </div>
             <div class="resume-right">
-
+                <img src="../src/assets/img/header.png" class="resume-header">
+                <p class="resume-right-job">求职意向：前端程序员</p>
             </div>
         </div>
     </div>
@@ -104,9 +105,11 @@
     }
     .resume-right{
         background-color: #ececec;
-        width: 25%;
+        width: 20%;
         height: 500px;
         float: left;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .resume-left-title{
         font-size: 2.3em;
@@ -242,5 +245,21 @@
         .skill-body-keyword{
             font-size: .4em;
         }
+    }
+    .resume-header{
+        width: 50%;
+        height: 25%;
+        display: block;
+        margin: 20px auto;
+    }
+    @media screen and (max-width: 600px){
+        .resume-header{
+            height: 10%;
+        }
+    }
+    .resume-right-job{
+        font-family:"Comic Sans MS","幼圆","黑体",sans-serif;
+        color: rgba(98, 39, 116, 1);
+        font-size: 1.2em;
     }
 </style>
