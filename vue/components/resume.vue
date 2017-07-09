@@ -33,6 +33,43 @@
 
                     </div>
                 </div>
+                <div class="prize">
+                    <div class="project-title">
+                        <div class="project-title-imgbox"><img src="../src/assets/img/1.png" class="project-img"></div>
+                        <span class="project-title-word">斩获奖项</span>
+                        <hr class="left-hr">
+                    </div>
+
+                    <ul class="prize-body">
+                        <li class="prize-body-li">实验室科研项目</li>
+                        <li class="prize-body-li">全国互联网+大赛省级奖项</li>
+                        <li class="prize-body-li">全国移动创新应用比赛奖项</li>
+                    </ul>
+                </div>
+
+                <div class="skill">
+                    <div class="project-title">
+                        <div class="project-title-imgbox"><img src="../src/assets/img/1.png" class="project-img"></div>
+                        <span class="project-title-word">技能标签</span>
+                        <hr class="left-hr">
+                    </div>
+                    <div class="skill-body">
+                        <ul>
+                            <li class="skill-body-keyword">html5</li>
+                            <li class="skill-body-keyword">css3</li>
+                            <li class="skill-body-keyword">javascript</li>
+                            <li class="skill-body-keyword">vue</li>
+                            <li class="skill-body-keyword">webpack</li>
+                            <li class="skill-body-keyword">bootstrap</li>
+                            <li class="skill-body-keyword">ES6</li>
+                            <li class="skill-body-keyword">php</li>
+                            <li class="skill-body-keyword">ci</li>
+                            <li class="skill-body-keyword">sass</li>
+                            <li class="skill-body-keyword">sass</li>
+                            <li class="skill-body-keyword">sass</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="resume-right">
 
@@ -52,13 +89,13 @@
 <style lang="scss" scoped>
     #resume{
         width: 80%;
-        height: 500px;
+        height: auto;
         margin-top: 60px;
         margin-left: 10%;
     }
     .resume-left{
         width: 60%;
-        height: 500px;
+        height: 1000px;
         float: left;
         padding-left: 4%;
         padding-top: 3%;
@@ -101,8 +138,9 @@
     }
     .project{
         margin-top: 3%;
-        height: 200px;
+        height: auto;
         width: 100%;
+        margin-bottom: 30px;
     }
     .project-img{
         width: 100%;
@@ -175,6 +213,34 @@
         }
         .project-body-word{
             font-size: .3em;
+        }
+    }
+    .prize-body{
+        margin-left: 20px;
+    }
+    .prize-body-li{
+        margin-top: 17px;
+    }
+    @media screen and (max-width: 600px){
+        .prize-body-li{
+            font-size: .4em;
+        }
+    }
+    .skill{
+        margin-top: 20px;
+    }
+    .skill-body-keyword{
+        border: 1px solid rgba(98, 39, 116, 1);
+        border-radius: 10px;
+        padding: 0 4px;
+        margin-right: 2%;
+        margin-top: 20px;
+        float: left;
+        list-style: none;
+    }
+    @media screen and (max-width: 600px){
+        .skill-body-keyword{
+            font-size: .4em;
         }
     }
 </style>
