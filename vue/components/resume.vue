@@ -74,6 +74,7 @@
             <div class="resume-right">
                 <img src="../src/assets/img/header.png" class="resume-header">
                 <p class="resume-right-job">求职意向：前端程序员</p>
+
             </div>
         </div>
     </div>

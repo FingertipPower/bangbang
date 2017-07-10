@@ -22,8 +22,8 @@
       <file leaf-file-name="resume.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue/components/resume.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3667">
-              <caret line="262" column="25" lean-forward="false" selection-start-line="262" selection-start-column="25" selection-end-line="262" selection-end-column="25" />
+            <state relative-caret-position="133">
+              <caret line="76" column="16" lean-forward="false" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
               </folding>
@@ -93,10 +93,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1440" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -115,7 +114,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -130,6 +128,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,7 +264,8 @@
       <workItem from="1499266724214" duration="61000" />
       <workItem from="1499432424643" duration="48000" />
       <workItem from="1499504679652" duration="3727000" />
-      <workItem from="1499563407345" duration="8241000" />
+      <workItem from="1499563407345" duration="8382000" />
+      <workItem from="1499698052090" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="网站头部自适应的实现">
       <created>1497338647902</created>
@@ -386,11 +386,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499570701420</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="头像部分完成">
+      <created>1499589628666</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1499589628666</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72361000" />
+    <option name="totallyTimeSpent" value="72515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,10 +409,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1440" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13333334" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -442,7 +449,8 @@
     <MESSAGE value="网页" />
     <MESSAGE value="项目经历模块完成" />
     <MESSAGE value="奖项以及技能部分完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="奖项以及技能部分完成" />
+    <MESSAGE value="头像部分完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="头像部分完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -730,13 +738,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/npm-debug.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/npm-debug.log" />
     <entry file="file://$PROJECT_DIR$/vue/src/assets/js/canvas.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1482">
@@ -797,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/components/resume.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3667">
-          <caret line="262" column="25" lean-forward="false" selection-start-line="262" selection-start-column="25" selection-end-line="262" selection-end-column="25" />
+        <state relative-caret-position="133">
+          <caret line="76" column="16" lean-forward="false" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
           </folding>
