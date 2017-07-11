@@ -74,7 +74,21 @@
             <div class="resume-right">
                 <img src="../src/assets/img/header.png" class="resume-header">
                 <p class="resume-right-job">求职意向：前端程序员</p>
-
+                <div class="resume-box">
+                    <img src="../src/assets/img/phone.png" class="resume-img">
+                    <span class="resume-msg">18846927659</span>
+                </div>
+                <div class="resume-box resume-email">
+                    <img src="../src/assets/img/mail.png" class="resume-img resume-email-display">
+                    <span class="resume-msg">939408507@qq.com</span>
+                </div>
+                <div class="resume-my-box">
+                    <img src="../src/assets/img/msg.png" class="resume-my-img"><span class="resume-font">关于我</span>
+                    <p class="resume-msg-keyword resume-font">学历：本科</p>
+                    <p class="resume-msg-keyword resume-font">学校：黑龙江大学</p>
+                    <p class="resume-msg-keyword resume-font">专业：网络工程</p>
+                    <p class="resume-msg-keyword resume-font">户籍：黑龙江</p>
+                </div>
             </div>
         </div>
     </div>
@@ -94,6 +108,7 @@
         height: auto;
         margin-top: 60px;
         margin-left: 10%;
+        z-index: 9;
     }
     .resume-left{
         width: 60%;
@@ -111,6 +126,18 @@
         float: left;
         padding-left: 5%;
         padding-right: 5%;
+    }
+    @media screen and (max-width: 600px){
+        #resume{
+            width: 100%;
+            margin-left: 0;
+            margin-top: 20px;
+        }
+        .resume-right{
+            padding-left: 0;
+            padding-right: 0;
+            width: 32%;
+        }
     }
     .resume-left-title{
         font-size: 2.3em;
@@ -182,7 +209,7 @@
     }
     @media screen and (max-width: 600px){
         .project-title .project-title-imgbox{
-            width: 15%;
+            width: 13%;
             height: 65%;
         }
         .project-title-word{
@@ -263,4 +290,59 @@
         color: rgba(98, 39, 116, 1);
         font-size: 1.2em;
     }
+    .resume-img{
+        width: 17px;
+        height: 17px;
+        display: block;
+        float: left;
+        margin-top: 3px;
+        margin-right: 3px;
+    }
+    .resume-box{
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    @media screen and (max-width: 600px){
+        .resume-box{
+            width: 95px;
+        }
+        .resume-right-job{
+            font-size: .4em;
+        }
+        .resume-img {
+            width: 15px;
+            height: 15px;
+            margin-top: 5px;
+        }
+        .resume-msg{
+            font-size: .4em;
+        }
+        .resume-email{
+            margin: 0;
+        }
+        .resume-email-display{
+            display: none;
+        }
+        .resume-font{
+            font-size: .4em;
+        }
+    }
+    .resume-my-box{
+        width: auto;
+        height: auto;
+        margin-top: 15px;
+    }
+    .resume-my-img{
+        width: 20px;
+        height: 20px;
+        display: block;
+        float: left;
+        margin-right: 5px;
+    }
+    .resume-msg-keyword{
+        margin-top: 10px;
+    }
+
 </style>
