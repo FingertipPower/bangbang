@@ -5,9 +5,9 @@
             <li @click="foundCanvas"><router-link :to="'/homepage'">首页</router-link></li>
             <li @click="removeCanvas"><router-link :to="'/resume'">简历</router-link></li>
             <li><a href="https://github.com/fingertippower">GitHub</a></li>
-            <li>博客</li>
-            <li>Error</li>
-            <li>组件</li>
+            <li @click="removeCanvas"><router-link :to="'/blog'">博客</router-link></li>
+            <li @click="removeCanvas"><router-link :to="'/error'">Error</router-link></li>
+            <li @click="removeCanvas"><router-link :to="'/assembly'">组件</router-link></li>
         </ul>
         <hr class="head-hr">
     </div>
@@ -43,7 +43,12 @@
 </script>
 
 <style lang="scss" scoped>
-    a{text-decoration: none}
+    a{
+        text-decoration: none;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(98, 39, 116, 1)), to(rgba(197, 51, 100, 1)));
+    }
     .head{
         height: 27px;
         width: 90%;
