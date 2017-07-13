@@ -32,8 +32,8 @@
       <file leaf-file-name="assembly.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue/components/assembly.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="380">
+              <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -307,7 +307,7 @@
       <workItem from="1499698052090" duration="42000" />
       <workItem from="1499733521467" duration="6133000" />
       <workItem from="1499821427338" duration="19759000" />
-      <workItem from="1499957272376" duration="313000" />
+      <workItem from="1499957272376" duration="500000" />
     </task>
     <task id="LOCAL-00001" summary="网站头部自适应的实现">
       <created>1497338647902</created>
@@ -463,11 +463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499957347414</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="网页">
+      <created>1499957624319</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1499957624319</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98749000" />
+    <option name="totallyTimeSpent" value="98936000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -864,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/components/assembly.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
           <folding />
         </state>
       </provider>
