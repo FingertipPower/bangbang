@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dd10b41-f45b-43ba-871e-fba26cb0cfef" name="Default" comment="">
+    <list default="true" id="8dd10b41-f45b-43ba-871e-fba26cb0cfef" name="Default" comment="网页">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/components/assembly.vue" afterPath="$PROJECT_DIR$/vue/components/assembly.vue" />
     </list>
@@ -32,8 +32,8 @@
       <file leaf-file-name="assembly.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue/components/assembly.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="387">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -307,7 +307,7 @@
       <workItem from="1499698052090" duration="42000" />
       <workItem from="1499733521467" duration="6133000" />
       <workItem from="1499821427338" duration="19759000" />
-      <workItem from="1499957272376" duration="63000" />
+      <workItem from="1499957272376" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="网站头部自适应的实现">
       <created>1497338647902</created>
@@ -456,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499855341992</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="网页">
+      <created>1499957347414</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1499957347414</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98499000" />
+    <option name="totallyTimeSpent" value="98749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,13 +516,13 @@
     <MESSAGE value="canvas优化完成，路由的配置和canvas 分离加载没有问题了" />
     <MESSAGE value="简历页面制作中" />
     <MESSAGE value="简历页面的构建" />
-    <MESSAGE value="网页" />
     <MESSAGE value="项目经历模块完成" />
     <MESSAGE value="奖项以及技能部分完成" />
     <MESSAGE value="头像部分完成" />
     <MESSAGE value="个人信息页面完成" />
     <MESSAGE value="个人博客页面以及Error页面完成，组件页面完成一个表情" />
-    <option name="LAST_COMMIT_MESSAGE" value="个人博客页面以及Error页面完成，组件页面完成一个表情" />
+    <MESSAGE value="网页" />
+    <option name="LAST_COMMIT_MESSAGE" value="网页" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -857,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/components/assembly.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        <state relative-caret-position="387">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>

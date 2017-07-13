@@ -47,6 +47,16 @@
                     <p>这是一个XXX组件</p>
                 </li>
 
+                <li class="assembly-li">
+                    <div class="face-box">
+                        <img src="../src/assets/img/face.png" class="face">
+                        <div class="face-left-eye"></div>
+                        <div class="face-right-eye"></div>
+                        <div class="face-left-eyelid"></div>
+                        <div class="face-right-eyelid"></div>
+                    </div>
+                    <p>这是一个XXX组件</p>
+                </li>
             </ul>
         </div>
     </div>
