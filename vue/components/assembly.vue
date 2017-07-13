@@ -35,7 +35,6 @@
                     </div>
                     <p>这是一个XXX组件</p>
                 </li>
-
                 <li class="assembly-li">
                     <div class="face-box">
                         <img src="../src/assets/img/face.png" class="face">
