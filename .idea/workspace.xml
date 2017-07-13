@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dd10b41-f45b-43ba-871e-fba26cb0cfef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/components/assembly.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/components/blog.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/components/error.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/components/head.vue" afterPath="$PROJECT_DIR$/vue/components/head.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/router/index.js" afterPath="$PROJECT_DIR$/vue/router/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/components/assembly.vue" afterPath="$PROJECT_DIR$/vue/components/assembly.vue" />
     </list>
     <ignored path="../../xamppfiles/htdocs/myWebsite/_config.yml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +22,8 @@
       <file leaf-file-name="blog.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/components/blog.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="90" column="40" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="40" />
+            <state relative-caret-position="1710">
+              <caret line="90" column="40" lean-forward="false" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -36,8 +32,8 @@
       <file leaf-file-name="assembly.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue/components/assembly.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+            <state relative-caret-position="406">
+              <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -64,8 +60,8 @@
         <option value="$PROJECT_DIR$/vue/components/blog.vue" />
         <option value="$PROJECT_DIR$/vue/components/error.vue" />
         <option value="$PROJECT_DIR$/vue/router/index.js" />
-        <option value="$PROJECT_DIR$/vue/components/assembly.vue" />
         <option value="$PROJECT_DIR$/vue/components/head.vue" />
+        <option value="$PROJECT_DIR$/vue/components/assembly.vue" />
       </list>
     </option>
   </component>
@@ -86,7 +82,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1440" />
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -106,6 +101,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,8 +167,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +306,8 @@
       <workItem from="1499563407345" duration="8382000" />
       <workItem from="1499698052090" duration="42000" />
       <workItem from="1499733521467" duration="6133000" />
-      <workItem from="1499821427338" duration="19180000" />
+      <workItem from="1499821427338" duration="19759000" />
+      <workItem from="1499957272376" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="网站头部自适应的实现">
       <created>1497338647902</created>
@@ -453,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499743591955</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="个人博客页面以及Error页面完成，组件页面完成一个表情">
+      <created>1499855341992</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1499855341992</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97857000" />
+    <option name="totallyTimeSpent" value="98499000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -469,7 +472,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1440" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18055555" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -511,7 +514,8 @@
     <MESSAGE value="奖项以及技能部分完成" />
     <MESSAGE value="头像部分完成" />
     <MESSAGE value="个人信息页面完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="个人信息页面完成" />
+    <MESSAGE value="个人博客页面以及Error页面完成，组件页面完成一个表情" />
+    <option name="LAST_COMMIT_MESSAGE" value="个人博客页面以及Error页面完成，组件页面完成一个表情" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -545,9 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,9 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="158" column="40" lean-forward="false" selection-start-line="158" selection-start-column="4" selection-end-line="158" selection-end-column="40" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
           <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,16 +837,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <marker date="1498659765000" expanded="true" signature="19:217" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/components/blog.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="90" column="40" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="40" />
+        <state relative-caret-position="1710">
+          <caret line="90" column="40" lean-forward="false" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -861,14 +852,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/components/assembly.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        <state relative-caret-position="406">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
           <folding />
         </state>
       </provider>
