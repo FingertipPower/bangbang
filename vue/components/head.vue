@@ -54,6 +54,9 @@
         width: 90%;
         margin-left: 5%;
         padding-top: 10px;
+        position: fixed;
+        top: 0;
+        background-color: #fff;
     }
     .logo{
         height: 30px;
