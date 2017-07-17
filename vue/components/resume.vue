@@ -344,5 +344,4 @@
     .resume-msg-keyword{
         margin-top: 10px;
     }
-
 </style>
