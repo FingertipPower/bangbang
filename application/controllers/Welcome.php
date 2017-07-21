@@ -23,3 +23,15 @@ class Welcome extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 }
+
+
+
+//        $basedir = dirname(__FILE__);
+//        $file_name="aabb.txt";
+//        $fp=fopen($file_name,'r');
+//        while(!feof($fp))
+//        {
+//            $buffer=fgets($fp,4096);
+//            echo $buffer."<br/>";
+//        }
+//        fclose($fp);

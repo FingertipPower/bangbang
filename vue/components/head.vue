@@ -1,6 +1,6 @@
 <template>
     <div class="head">
-        <img src="../src/assets/img/coder.jpg" alt="logo" class="logo">
+        <img src="http://www.fingertippower.cn/vue/src/assets/img/coder.jpg" alt="logo" class="logo">
         <ul class="head-ul">
             <li @click="foundCanvas"><router-link :to="'/homepage'">首页</router-link></li>
             <li @click="removeCanvas"><router-link :to="'/resume'">简历</router-link></li>
@@ -25,7 +25,7 @@
                     canvas.setAttribute("id","canvas");
                     document.body.appendChild(canvas);
                     var Ajs = document.createElement("script");
-                    Ajs.src = "../src/assets/js/canvas.js";
+                    Ajs.src = "http://www.fingertippower.cn/vue/src/assets/js/canvas.js";
                     Ajs.setAttribute("id","script");
                     document.body.appendChild(Ajs);
                 }

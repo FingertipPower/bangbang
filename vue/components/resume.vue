@@ -11,7 +11,7 @@
                 </p>
                 <div class="project">
                     <div class="project-title">
-                        <div class="project-title-imgbox"><img src="../src/assets/img/1.png" class="project-img"></div>
+                        <div class="project-title-imgbox"><img src="http://www.fingertippower.cn/vue/src/assets/img/1.png" class="project-img"></div>
                         <span class="project-title-word">项目经历</span>
                         <hr class="left-hr">
                     </div>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="prize">
                     <div class="project-title">
-                        <div class="project-title-imgbox"><img src="../src/assets/img/1.png" class="project-img"></div>
+                        <div class="project-title-imgbox"><img src="http://www.fingertippower.cn/vue/src/assets/img/1.png" class="project-img"></div>
                         <span class="project-title-word">斩获奖项</span>
                         <hr class="left-hr">
                     </div>
@@ -49,7 +49,7 @@
 
                 <div class="skill">
                     <div class="project-title">
-                        <div class="project-title-imgbox"><img src="../src/assets/img/1.png" class="project-img"></div>
+                        <div class="project-title-imgbox"><img src="http://www.fingertippower.cn/vue/src/assets/img/1.png" class="project-img"></div>
                         <span class="project-title-word">技能标签</span>
                         <hr class="left-hr">
                     </div>
@@ -72,18 +72,18 @@
                 </div>
             </div>
             <div class="resume-right">
-                <img src="../src/assets/img/header.png" class="resume-header">
+                <img src="http://www.fingertippower.cn/vue/src/assets/img/header.png" class="resume-header">
                 <p class="resume-right-job">求职意向：前端程序员</p>
                 <div class="resume-box">
-                    <img src="../src/assets/img/phone.png" class="resume-img">
+                    <img src="http://www.fingertippower.cn/vue/src/assets/img/phone.png" class="resume-img">
                     <span class="resume-msg">18846927659</span>
                 </div>
                 <div class="resume-box resume-email">
-                    <img src="../src/assets/img/mail.png" class="resume-img resume-email-display">
+                    <img src="http://www.fingertippower.cn/vue/src/assets/img/mail.png" class="resume-img resume-email-display">
                     <span class="resume-msg">939408507@qq.com</span>
                 </div>
                 <div class="resume-my-box">
-                    <img src="../src/assets/img/msg.png" class="resume-my-img"><span class="resume-font">关于我</span>
+                    <img src="http://www.fingertippower.cn/vue/src/assets/img/msg.png" class="resume-my-img"><span class="resume-font">关于我</span>
                     <p class="resume-msg-keyword resume-font">学历：本科</p>
                     <p class="resume-msg-keyword resume-font">学校：黑龙江大学</p>
                     <p class="resume-msg-keyword resume-font">专业：网络工程</p>
