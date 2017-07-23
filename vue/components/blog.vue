@@ -58,6 +58,7 @@
                 this.title1 = res.data[0].title;
                 this.introduction1 = res.data[0].introduction;
                 this.time1 = res.data[0].time;
+
             })
         }
     }
