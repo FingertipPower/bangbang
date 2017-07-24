@@ -5,6 +5,7 @@
             <div class="article-float article-left-box">
                 <p>{{title1}}</p>
                 <p class="article-word">{{introduction1}}</p>
+                <button @click="getMsg">这是一个按钮</button>
             </div>
             <div class="article-float">
                 <p class="time">{{time1}}</p>
@@ -44,22 +45,27 @@
 </template>
 
 <script>
-    import axios from 'axios'
+//    import axios from 'axios'
+    import { mapState,mapMutations,mapActions} from 'vuex'
     export default{
         data:function(){
             return{
-                title1:"",
-                introduction1:"",
-                time1:""
+
             }
         },
+        computed:mapState({
+            title1: state => state.blog.title1,
+            introduction1: state => state.blog.introduction1,
+            time1: state => state.blog.time1
+        }),
+//        methods:{
+//            getMsg(){
+//                return this.$store.commit('getMsg');
+//            }
+//        }
+//        methods: mapActions(['getMsg']),
         created(){
-            axios.get('http://localhost/mywebsite/index.php/index/main').then((res)=>{
-                this.title1 = res.data[0].title;
-                this.introduction1 = res.data[0].introduction;
-                this.time1 = res.data[0].time;
-
-            })
+            return this.$store.commit('getMsg');
         }
     }
 </script>
