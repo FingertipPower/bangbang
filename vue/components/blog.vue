@@ -1,76 +1,46 @@
 <template>
     <div class="blog">
         <div class="vertical"></div>
-        <div class="article font">
-            <div class="article-float article-left-box">
-                <p>{{title1}}</p>
-                <p class="article-word">{{introduction1}}</p>
-                <button @click="getMsg">这是一个按钮</button>
-            </div>
-            <div class="article-float">
-                <p class="time">{{time1}}</p>
-            </div>
-        </div>
-
-        <div class="article font">
-            <div class="article-float article-left-box">
-                <p>这是一个我的关于阿里云的博客</p>
-                <p class="article-word">稻盛和夫撒娇的客户飞机上的匡扶汉室就看京东卡萨吵架时看到你曾经哭撒的好处就能撒德川家康很上档次到你曾经的卡水寒风似刀你吵架就是独家开发活动时间看哪合适的房间看书的年纪手机的好处就开始对你吵架可是多哈参加考试呢手机的车牛山岛进出口哈萨克觉得你吵架撒的课程</p>
-            </div>
-            <div class="article-float">
-                <p class="time">2017.3.4</p>
-            </div>
-        </div>
-
-        <div class="article font">
-            <div class="article-float article-left-box">
-                <p>这是一个我的关于阿里云的博客</p>
-                <p class="article-word">稻盛和夫撒娇的客户飞机上的匡扶汉室就看京东卡萨吵架时看到你曾经哭撒的好处就能撒德川家康很上档次到你曾经的卡水寒风似刀你吵架就是独家开发活动时间看哪合适的房间看书的年纪手机的好处就开始对你吵架可是多哈参加考试呢手机的车牛山岛进出口哈萨克觉得你吵架撒的课程</p>
-            </div>
-            <div class="article-float">
-                <p class="time">2017.3.4</p>
-            </div>
-        </div>
-
-        <div class="article font">
-            <div class="article-float article-left-box">
-                <p>这是一个我的关于阿里云的博客</p>
-                <p class="article-word">稻盛和夫撒娇的客户飞机上的匡扶汉室就看京东卡萨吵架时看到你曾经哭撒的好处就能撒德川家康很上档次到你曾经的卡水寒风似刀你吵架就是独家开发活动时间看哪合适的房间看书的年纪手机的好处就开始对你吵架可是多哈参加考试呢手机的车牛山岛进出口哈萨克觉得你吵架撒的课程</p>
-            </div>
-            <div class="article-float">
-                <p class="time">2017.3.4</p>
-            </div>
-        </div>
+        <ul class="li-style">
+            <li v-for="(val, index) in blogData">
+                <div class="article font">
+                    <div class="article-float article-left-box">
+                        <p @click="openBlog(index)"><router-link :to="'/blogmsg'">{{val.title}}</router-link></p>
+                        <p class="article-word">{{val.introduction}}</p>
+                    </div>
+                    <div class="article-float">
+                        <p class="time">{{val.time}}</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </div>
 </template>
 
 <script>
-//    import axios from 'axios'
-    import { mapState,mapMutations,mapActions} from 'vuex'
+    import { mapMutations,mapActions,mapGetters} from 'vuex'
     export default{
         data:function(){
             return{
 
             }
         },
-        computed:mapState({
-            title1: state => state.blog.title1,
-            introduction1: state => state.blog.introduction1,
-            time1: state => state.blog.time1
-        }),
-//        methods:{
-//            getMsg(){
-//                return this.$store.commit('getMsg');
-//            }
-//        }
-//        methods: mapActions(['getMsg']),
+        computed:mapGetters(['blogData']),
         created(){
-            return this.$store.commit('getMsg');
-        }
+            return this.$store.dispatch('getMsg')
+        },
+        methods:mapActions(['openBlog'])
     }
 </script>
 
 <style lang="scss" scoped>
+    a{
+        text-decoration: none;
+        color: #000000;
+    }
+    .li-style{
+        list-style: none;
+    }
     .blog{
         width: 80%;
         height: 800px;

@@ -5,6 +5,7 @@ import Homepage from '../components/homepage.vue'
 import Blog from '../components/blog.vue'
 import Error from '../components/error.vue'
 import Assembly from '../components/assembly.vue'
+import Blogmsg from '../components/blogmsg.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -38,6 +39,11 @@ export default new Router({
             path: '/assembly',
             name: 'assembly',
             component: Assembly
+        },
+        {
+            path: '/blogmsg',
+            name: 'blogmsg',
+            component: Blogmsg
         }
     ]
 })
