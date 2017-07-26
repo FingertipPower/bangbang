@@ -131,7 +131,7 @@
         #resume{
             width: 100%;
             margin-left: 0;
-            margin-top: 20px;
+            margin-top: 50px;
         }
         .resume-right{
             padding-left: 0;

@@ -4,10 +4,12 @@
         <div class="word">
             <p>{{oldMsg}}<span class="cursor" v-show="toFlicker">|</span></p>
         </div>
+        <canvas id="canvas"></canvas>
     </div>
 </template>
 
 <script>
+    import  canvas  from '../src/assets/js/canvas.js'
     export default{
         data:function(){
             return{
@@ -28,11 +30,20 @@
         mounted:function(){
             setInterval(this.typing,320);
             setInterval(this.flicker,585);
+        },
+        created(){
+            return canvas.loop
         }
     }
 </script>
 
 <style lang="scss" scoped>
+    #canvas{
+        width: 100%;
+        height: 90%;
+        position: fixed;
+        top: 50px;
+    }
     .cursor{
         background-color: rgba(98, 39, 116, 1);
         color: rgba(98, 39, 116, 1);

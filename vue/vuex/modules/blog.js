@@ -1,34 +1,54 @@
-import api from '../../fetch/api'
+import axios from '../../fetch/api'
 import * as types from '../types.js'
 
 const state = {
     data:"",
-    blogIndex:""
+    blogIndex:"",
+    blogMsg:""
 }
 
 const mutations = {
     [types.GET_BLOG_DATA](state,res){
-        state.data = res;
+        state.data = res.data;
     },
-    [types.BLOG_LINK](state,index){
-        state.blogtodo = state.data[index].blogIndex;
+    [types.BLOG_INDEX](state,index){
+        state.blogIndex = state.data[index].todo;
+    },
+    [types.READ_BLOG](state,res){
+        state.blogMsg = res.data;
+        console.log(state.blogMsg);
     }
 }
 
 const actions = {
     getMsg({commit}){
-        api.fetch('index.php/index/main').then(res=>{
+        axios({
+            method: 'post',
+            url: 'index.php/index/main'
+        }).then((res)=>{
             commit(types.GET_BLOG_DATA,res)
         })
     },
-    openBlog({commit},index){
-        commit(types.BLOG_LINK,index)
+    openBlog({commit,state},index){
+        commit(types.BLOG_INDEX,index),
+        axios({
+            method: 'get',
+            url: 'index.php/index/readblogmsg',
+            params:{
+                "index":state.blogIndex
+            }
+        }).then((res)=>{
+            commit(types.READ_BLOG,res)
+        })
     }
 }
 
 const getters = {
     blogData(state){
         return state.data;
+    },
+    blogMsg(state){
+        return state.blogMsg;
     }
 }
 

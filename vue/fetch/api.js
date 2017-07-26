@@ -14,7 +14,7 @@ axios.interceptors.request.use((config) => {
     return config;
 },(error) =>{
     // _.toast("错误的传参");
-    // alert("错误的传参");
+    alert("错误的传参");
     return Promise.reject(error);
 });
 
@@ -22,7 +22,7 @@ axios.interceptors.request.use((config) => {
 axios.interceptors.response.use((res) =>{
     if(res.data.code == '200'){
         // _.toast(res.data.msg);
-        // alert(res.data.msg);
+        alert(res.data.msg);
          return Promise.reject(res);
     }
     return res;
@@ -32,39 +32,4 @@ axios.interceptors.response.use((res) =>{
     return Promise.reject(error);
 });
 
-
-// export function fetch(url, params) {
-//     return new Promise((resolve, reject) => {
-//         axios.post(url, params)
-//             .then(response => {
-//                 resolve(response.data);
-//             }, err => {
-//                 reject(err);
-//             })
-//             .catch((error) => {
-//                 reject(error)
-//             })
-//     })
-// }
-
-// export default {
-//     select(params){
-//         return fetch('index.php/index/main',params)
-//     }
-// }
-
-export default {
-    fetch(url, params) {
-        return new Promise((resolve, reject) => {
-            axios.post(url, params)
-                .then(response => {
-                    resolve(response.data);
-                }, err => {
-                    reject(err);
-                })
-                .catch((error) => {
-                    reject(error)
-                })
-        })
-    }
-}
+export default axios;

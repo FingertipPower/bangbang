@@ -2,12 +2,12 @@
     <div class="head">
         <img src="http://www.fingertippower.cn/vue/src/assets/img/coder.jpg" alt="logo" class="logo">
         <ul class="head-ul">
-            <li @click="foundCanvas"><router-link :to="'/homepage'">首页</router-link></li>
-            <li @click="removeCanvas"><router-link :to="'/resume'">简历</router-link></li>
+            <li><router-link :to="'/homepage'">首页</router-link></li>
+            <li><router-link :to="'/resume'">简历</router-link></li>
             <li><a href="https://github.com/fingertippower">GitHub</a></li>
-            <li @click="removeCanvas"><router-link :to="'/blog'">博客</router-link></li>
-            <li @click="removeCanvas"><router-link :to="'/error'">Error</router-link></li>
-            <li @click="removeCanvas"><router-link :to="'/assembly'">组件</router-link></li>
+            <li><router-link :to="'/blog'">博客</router-link></li>
+            <li><router-link :to="'/error'">Error</router-link></li>
+            <li><router-link :to="'/assembly'">组件</router-link></li>
         </ul>
         <hr class="head-hr">
     </div>
@@ -15,30 +15,7 @@
 
 <script>
     export default{
-        methods:{
-            foundCanvas(){
-                if(document.getElementById("canvas")){
 
-                }else{
-                    var canvas = document.createElement("canvas");
-                    canvas.className = "canvas";
-                    canvas.setAttribute("id","canvas");
-                    document.body.appendChild(canvas);
-                    var Ajs = document.createElement("script");
-                    Ajs.src = "http://www.fingertippower.cn/vue/src/assets/js/canvas.js";
-                    Ajs.setAttribute("id","script");
-                    document.body.appendChild(Ajs);
-                }
-            },
-            removeCanvas(){
-                if(document.getElementById("script")){
-                    var canvas = document.getElementById("canvas");
-                    var Ascript = document.getElementById("script");
-                    document.body.removeChild(canvas);
-                    document.body.removeChild(Ascript);
-                }
-            }
-        }
     }
 </script>
 
@@ -50,7 +27,7 @@
         background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(98, 39, 116, 1)), to(rgba(197, 51, 100, 1)));
     }
     .head{
-        height: 27px;
+        height: 33px;
         width: 90%;
         margin-left: 5%;
         padding-top: 10px;
