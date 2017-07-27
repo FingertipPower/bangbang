@@ -1,9 +1,11 @@
 import axios from 'axios'
 import qs from 'qs'
-
+/*
+* 此页面是对于axios的配置
+* */
 axios.defaults.timeout = 5000;
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8';
-axios.defaults.baseURL = 'http://localhost/mywebsite';
+axios.defaults.baseURL = 'http://www.fingertippower.cn';
 // axios.defaults.withCredentials = true;
 
 //POST传参序列化

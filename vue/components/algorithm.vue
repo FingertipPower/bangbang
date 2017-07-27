@@ -1,50 +1,37 @@
 <template>
     <div class="blog">
         <ul class="li-style">
-            <li>
+            <li v-for="(val, index) in algorithmData">
                 <div class="article font">
                     <div class="vertical"></div>
                     <div class="article-float article-left-box">
-                        <p>这是一个关于VUE的一个错误的解释</p>
-                        <p class="article-word">同年参演抗战题材的电视剧《雪豹》[4]  。2011年，主演的电视剧《裸婚时代》在各大卫视播出；[5]  2011年-2012年连续2年获得北京大学生电影节[6-7]  最受大学生欢迎男演员奖。2012年，凭借电影《失恋33天》获得第</p>
+                        <p @click="openAlgorithm(index)"><router-link :to="'/algorithmmsg'">{{val.title}}</router-link></p>
+                        <p class="article-word">{{val.introduction}}</p>
                     </div>
                     <div class="article-float">
-                        <p class="time">2017.3.4</p>
+                        <p class="time">{{val.time}}</p>
                     </div>
                 </div>
             </li>
 
-            <li>
-                <div class="article font">
-                    <div class="vertical"></div>
-                    <div class="article-float article-left-box">
-                        <p>这是一个关于VUE的一个错误的解释</p>
-                        <p class="article-word">同年参演抗战题材的电视剧《雪豹》[4]  。2011年，主演的电视剧《裸婚时代》在各大卫视播出；[5]  2011年-2012年连续2年获得北京大学生电影节[6-7]  最受大学生欢迎男演员奖。2012年，凭借电影《失恋33天》获得第</p>
-                    </div>
-                    <div class="article-float">
-                        <p class="time">2017.3.4</p>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <div class="article font">
-                    <div class="vertical"></div>
-                    <div class="article-float article-left-box">
-                        <p>这是一个关于VUE的一个错误的解释</p>
-                        <p class="article-word">同年参演抗战题材的电视剧《雪豹》[4]  。2011年，主演的电视剧《裸婚时代》在各大卫视播出；[5]  2011年-2012年连续2年获得北京大学生电影节[6-7]  最受大学生欢迎男演员奖。2012年，凭借电影《失恋33天》获得第</p>
-                    </div>
-                    <div class="article-float">
-                        <p class="time">2017.3.4</p>
-                    </div>
-                </div>
-            </li>
         </ul>
     </div>
 </template>
 
 <script>
+    import { mapMutations,mapActions,mapGetters} from 'vuex'
+    export default{
+        data:function(){
+            return{
 
+            }
+        },
+        computed:mapGetters(['algorithmData']),
+        created(){
+            return this.$store.dispatch('getAlgorithmMsg')
+        },
+        methods:mapActions(['openAlgorithm'])
+    }
 </script>
 
 <style lang="scss" scoped>
@@ -94,6 +81,7 @@
             line-height: 40px;
             text-align: center;
             color: azure;
+            font-size: .8em;
         }
     }
     @media screen and (max-width: 600px){

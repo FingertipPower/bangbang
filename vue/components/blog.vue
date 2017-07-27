@@ -27,7 +27,7 @@
         },
         computed:mapGetters(['blogData']),
         created(){
-            return this.$store.dispatch('getMsg')
+            return this.$store.dispatch('getBlogMsg')
         },
         methods:mapActions(['openBlog'])
     }

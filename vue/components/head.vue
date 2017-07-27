@@ -1,12 +1,12 @@
 <template>
     <div class="head">
-        <img src="http://www.fingertippower.cn/vue/src/assets/img/coder.jpg" alt="logo" class="logo">
+        <img src="http://www.fingertippower.cn/js/coder.jpg" alt="logo" class="logo">
         <ul class="head-ul">
             <li><router-link :to="'/homepage'">首页</router-link></li>
             <li><router-link :to="'/resume'">简历</router-link></li>
             <li><a href="https://github.com/fingertippower">GitHub</a></li>
             <li><router-link :to="'/blog'">博客</router-link></li>
-            <li><router-link :to="'/error'">Error</router-link></li>
+            <li><router-link :to="'/algorithm'">算法</router-link></li>
             <li><router-link :to="'/assembly'">组件</router-link></li>
         </ul>
         <hr class="head-hr">

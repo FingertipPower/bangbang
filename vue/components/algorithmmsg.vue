@@ -1,6 +1,6 @@
 <template>
-    <div id="blogMsg">
-        <p v-html="blogMsg"></p>
+    <div id="algorithmmsg">
+        <p v-html="algorithmMsg"></p>
     </div>
 </template>
 
@@ -12,24 +12,22 @@
 
             }
         },
-        computed:mapGetters(['blogMsg']),
+        computed:mapGetters(['algorithmMsg']),
         created(){
-            return this.$store.dispatch('readBlog')
+            return this.$store.dispatch('readAlgorithm')
         },
     }
 </script>
 
 <style lang="scss" scoped>
-    #blogMsg{
+    #algorithmmsg{
         width: 90%;
-        height: 500px;
         margin-left: 5%;
         margin-top: 70px;
-        text-align: left;
-        padding-left: 80px;
+        height: 800px;
     }
     @media screen and (max-width: 600px){
-        #blogMsg{
+        #algorithmmsg{
             margin-left: 0px;
             padding-left: 5%;
         }

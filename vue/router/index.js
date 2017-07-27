@@ -3,9 +3,10 @@ import Router from 'vue-router'
 import Resume from '../components/resume.vue'
 import Homepage from '../components/homepage.vue'
 import Blog from '../components/blog.vue'
-import Error from '../components/error.vue'
+import Algorithm from '../components/algorithm.vue'
 import Assembly from '../components/assembly.vue'
 import Blogmsg from '../components/blogmsg.vue'
+import Algorithmmsg from '../components/algorithmmsg.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -31,9 +32,9 @@ export default new Router({
             component: Blog
         },
         {
-            path: '/error',
-            name: 'error',
-            component: Error
+            path: '/algorithm',
+            name: 'algorithm',
+            component: Algorithm
         },
         {
             path: '/assembly',
@@ -44,6 +45,11 @@ export default new Router({
             path: '/blogmsg',
             name: 'blogmsg',
             component: Blogmsg
+        },
+        {
+            path: '/algorithmmsg',
+            name: 'algorithmmsg',
+            component: Algorithmmsg
         }
     ]
 })

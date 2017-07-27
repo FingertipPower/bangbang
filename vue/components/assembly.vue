@@ -5,7 +5,7 @@
             <ul class="assembly-ul">
                 <li class="assembly-li">
                     <div class="face-box">
-                        <img src="http://www.fingertippower.cn/vue/src/assets/img/face.png" class="face">
+                        <img src="http://www.fingertippower.cn/js/face.png" class="face">
                         <div class="face-left-eye"></div>
                         <div class="face-right-eye"></div>
                         <div class="face-left-eyelid normal-expression"></div>
@@ -16,7 +16,7 @@
 
                 <li class="assembly-li">
                     <div class="face-box">
-                        <img src="http://www.fingertippower.cn/vue/src/assets/img/face.png" class="face">
+                        <img src="http://www.fingertippower.cn/js/face.png" class="face">
                         <div class="face-left-eye"></div>
                         <div class="face-right-eye"></div>
                         <div class="face-left-eyelid joyful-expression-left"></div>
@@ -27,7 +27,7 @@
 
                 <li class="assembly-li">
                     <div class="face-box">
-                        <img src="http://www.fingertippower.cn/vue/src/assets/img/face.png" class="face">
+                        <img src="http://www.fingertippower.cn/js/face.png" class="face">
                         <div class="face-left-eye perplex-eye-expression"></div>
                         <div class="face-right-eye perplex-eye-expression"></div>
                         <div class="face-left-eyelid perplex-eyelid-expression"></div>
@@ -38,7 +38,7 @@
 
                 <li class="assembly-li">
                     <div class="face-box">
-                        <img src="http://www.fingertippower.cn/vue/src/assets/img/face.png" class="face">
+                        <img src="http://www.fingertippower.cn/js/face.png" class="face">
                         <div class="face-left-eye thoughtful-left-expression"></div>
                         <div class="face-right-eye thoughtful-right-expression"></div>
                     </div>
@@ -47,7 +47,7 @@
 
                 <li class="assembly-li">
                     <div class="face-box">
-                        <img src="http://www.fingertippower.cn/vue/src/assets/img/face.png" class="face">
+                        <img src="http://www.fingertippower.cn/js/face.png" class="face">
                         <div class="face-left-eye sad-eye-expression"></div>
                         <div class="face-right-eye sad-eye-expression"></div>
                         <div class="face-left-eyelid sad-eyelid-expression"></div>
@@ -58,7 +58,7 @@
 
                 <li class="assembly-li">
                     <div class="face-box">
-                        <img src="http://www.fingertippower.cn/vue/src/assets/img/face.png" class="face">
+                        <img src="http://www.fingertippower.cn/js/face.png" class="face">
                         <div class="face-left-eye focussed-eye-expression"></div>
                         <div class="face-right-eye focussed-eye-expression"></div>
                     </div>
@@ -67,7 +67,7 @@
 
                 <li class="assembly-li">
                     <div class="face-box">
-                        <img src="http://www.fingertippower.cn/vue/src/assets/img/face.png" class="face">
+                        <img src="http://www.fingertippower.cn/js/face.png" class="face">
                         <div class="face-left-eye angry-eye-left-expression"></div>
                         <div class="face-right-eye angry-eye-right-expression"></div>
                     </div>
