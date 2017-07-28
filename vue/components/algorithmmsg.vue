@@ -5,10 +5,11 @@
 </template>
 
 <script>
-    import { mapActions,mapGetters} from 'vuex'
+    import { mapActions,mapGetters } from 'vuex'
     export default{
         data:function(){
             return{
+
             }
         },
         computed:mapGetters(['algorithmMsg']),
