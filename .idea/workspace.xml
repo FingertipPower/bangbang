@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dd10b41-f45b-43ba-871e-fba26cb0cfef" name="Default" comment="前后台的数据传递完成，并且把页面中的一些问题更改了一下">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/Algorithm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/components/algorithmmsg.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue/vuex/modules/algorithm.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/Cheshi.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vue/components/error.vue" afterPath="$PROJECT_DIR$/vue/components/algorithm.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Index.php" afterPath="$PROJECT_DIR$/application/controllers/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/aa.php" afterPath="$PROJECT_DIR$/application/controllers/aa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/components/assembly.vue" afterPath="$PROJECT_DIR$/vue/components/assembly.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/components/blog.vue" afterPath="$PROJECT_DIR$/vue/components/blog.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/components/blogmsg.vue" afterPath="$PROJECT_DIR$/vue/components/blogmsg.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/components/head.vue" afterPath="$PROJECT_DIR$/vue/components/head.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/components/resume.vue" afterPath="$PROJECT_DIR$/vue/components/resume.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/fetch/api.js" afterPath="$PROJECT_DIR$/vue/fetch/api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/index.html" afterPath="$PROJECT_DIR$/vue/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/router/index.js" afterPath="$PROJECT_DIR$/vue/router/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/vuex/modules/blog.js" afterPath="$PROJECT_DIR$/vue/vuex/modules/blog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/vuex/store.js" afterPath="$PROJECT_DIR$/vue/vuex/store.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/vuex/types.js" afterPath="$PROJECT_DIR$/vue/vuex/types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/components/algorithmmsg.vue" afterPath="$PROJECT_DIR$/vue/components/algorithmmsg.vue" />
     </list>
     <ignored path="../../xamppfiles/htdocs/myWebsite/_config.yml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +32,18 @@
       <file leaf-file-name="algorithmmsg.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue/components/algorithmmsg.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="190">
+              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blogmsg.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/components/blogmsg.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -89,7 +82,6 @@
         <option value="$PROJECT_DIR$/application/controllers/Index.php" />
         <option value="$PROJECT_DIR$/vue/components/algorithm.vue" />
         <option value="$PROJECT_DIR$/vue/components/blog.vue" />
-        <option value="$PROJECT_DIR$/vue/components/algorithmmsg.vue" />
         <option value="$PROJECT_DIR$/vue/components/head.vue" />
         <option value="$PROJECT_DIR$/vue/components/resume.vue" />
         <option value="$PROJECT_DIR$/vue/components/assembly.vue" />
@@ -100,6 +92,7 @@
         <option value="$PROJECT_DIR$/vue/vuex/modules/algorithm.js" />
         <option value="$PROJECT_DIR$/vue/vuex/store.js" />
         <option value="$PROJECT_DIR$/vue/vuex/types.js" />
+        <option value="$PROJECT_DIR$/vue/components/algorithmmsg.vue" />
       </list>
     </option>
   </component>
@@ -120,7 +113,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1440" />
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -165,24 +157,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vue" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myWebsite" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vuex" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,7 +341,8 @@
       <workItem from="1500950212947" duration="20157000" />
       <workItem from="1501039732434" duration="19220000" />
       <workItem from="1501071478165" duration="3504000" />
-      <workItem from="1501129286187" duration="10614000" />
+      <workItem from="1501129286187" duration="11506000" />
+      <workItem from="1501253400975" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="网站头部自适应的实现">
       <created>1497338647902</created>
@@ -635,11 +610,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501069478024</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="网站的大体布局基本完成，只需要后期添加了">
+      <created>1501148475862</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1501148475862</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229710000" />
+    <option name="totallyTimeSpent" value="230630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -651,7 +633,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1440" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17847222" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -701,7 +683,8 @@
     <MESSAGE value="vuex与axios 初步完成" />
     <MESSAGE value="vuex与axios 完成" />
     <MESSAGE value="前后台的数据传递完成，并且把页面中的一些问题更改了一下" />
-    <option name="LAST_COMMIT_MESSAGE" value="前后台的数据传递完成，并且把页面中的一些问题更改了一下" />
+    <MESSAGE value="网站的大体布局基本完成，只需要后期添加了" />
+    <option name="LAST_COMMIT_MESSAGE" value="网站的大体布局基本完成，只需要后期添加了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -899,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
           <caret line="73" column="40" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,10 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <marker date="1501137410000" expanded="true" signature="256:284" ph="SELECT * FRO... tj_algorith" />
-            <marker date="1501137410000" expanded="true" signature="405:457" ph="SELECT algor... tj_algorithm" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -942,15 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/components/blogmsg.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
           <caret line="69" column="65" lean-forward="false" selection-start-line="69" selection-start-column="65" selection-end-line="69" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
           <caret line="85" column="61" lean-forward="false" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,10 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <marker date="1501041349000" expanded="true" signature="246:269" ph="SELECT * FRO... tj_blog" />
-            <marker date="1501041349000" expanded="true" signature="385:427" ph="SELECT blogl... tj_blog" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1159">
           <caret line="61" column="33" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,9 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,9 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1069,16 +1016,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1064">
           <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/components/blogmsg.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/components/algorithmmsg.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="190">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -9,7 +9,6 @@
     export default{
         data:function(){
             return{
-
             }
         },
         computed:mapGetters(['algorithmMsg']),
@@ -25,6 +24,7 @@
         margin-left: 5%;
         margin-top: 70px;
         height: 800px;
+        padding-left: 80px;
     }
     @media screen and (max-width: 600px){
         #algorithmmsg{
