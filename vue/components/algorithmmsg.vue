@@ -9,6 +9,7 @@
     export default{
         data:function(){
             return{
+
             }
         },
         computed:mapGetters(['algorithmMsg']),
