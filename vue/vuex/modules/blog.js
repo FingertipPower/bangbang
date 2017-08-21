@@ -37,10 +37,20 @@ const actions = {
     },
     //用于将用户点击的博文索引存储起来，方便从数据库中读取相应博文的信息
     openBlog({commit},index){
-        commit(types.BLOG_INDEX,index)
+        // commit(types.BLOG_INDEX,index)
+        console.log(index);
+        axios({
+            method: 'get',
+            url: 'index.php/index/readblogmsg',
+            params:{
+                "index":index
+            }
+        }).then((res)=>{
+            commit(types.READ_BLOG,res);
+        })
     },
     //搜索相应索引值下的博文信息，并且把博文信息存储起来，索引值存储在window.name属性下面
-    readBlog({commit}){
+    readBlog({commit,state}){
         axios({
             method: 'get',
             url: 'index.php/index/readblogmsg',
@@ -48,7 +58,7 @@ const actions = {
                 "index":window.name
             }
         }).then((res)=>{
-            commit(types.READ_BLOG,res)
+            commit(types.READ_BLOG,res);
         })
     }
 }

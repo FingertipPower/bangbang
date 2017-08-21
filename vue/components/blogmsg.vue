@@ -12,10 +12,12 @@
 
             }
         },
-        computed:mapGetters(['blogMsg']),
         created(){
-            return this.$store.dispatch('readBlog')
+//            return this.$store.dispatch('readBlog')
+//            this.readBlog();
         },
+        computed:mapGetters(['blogMsg']),
+//        methods:mapActions(['readBlog'])
     }
 </script>
 
