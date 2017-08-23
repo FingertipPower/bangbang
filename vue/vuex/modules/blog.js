@@ -62,7 +62,6 @@ const actions = {
         })
     }
 }
-
 const getters = {
     //把需要页面渲染的数据抛出去
     blogData(state){
