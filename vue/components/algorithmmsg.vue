@@ -5,17 +5,22 @@
 </template>
 
 <script>
-    import { mapActions,mapGetters } from 'vuex'
+    import { mapState } from 'vuex'
     export default{
         data:function(){
             return{
 
             }
         },
-        computed:mapGetters(['algorithmMsg']),
-        created(){
-            return this.$store.dispatch('readAlgorithm')
-        },
+        computed:mapState({
+            algorithmMsg:function(state){
+                if(state.algorithm.algorithmMsg == ""){
+                    return window.name;
+                }else{
+                    return state.algorithm.algorithmMsg;
+                }
+            }
+        })
     }
 </script>
 

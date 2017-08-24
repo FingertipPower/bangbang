@@ -10,11 +10,9 @@ const mutations = {
     [types.GET_ALGORITHM_DATA](state,res){
         state.data = res.data;
     },
-    [types.ALGORITHM_INDEX](state,index){
-        window.name = state.data[index].todo;
-    },
     [types.READ_ALGORITHM](state,res){
         state.algorithmMsg = res.data;
+        window.name = res.data;
     }
 }
 
@@ -28,14 +26,11 @@ const actions = {
         })
     },
     openAlgorithm({commit},index){
-        commit(types.ALGORITHM_INDEX,index)
-    },
-    readAlgorithm({commit}){
         axios({
             method: 'get',
             url: 'index.php/index/readAlgorithm',
             params:{
-                "index":window.name
+                "index":index
             }
         }).then((res)=>{
             commit(types.READ_ALGORITHM,res)

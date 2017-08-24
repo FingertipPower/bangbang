@@ -13,15 +13,12 @@ const mutations = {
     [types.GET_BLOG_DATA](state,res){
         state.data = res.data;
     },
-    //把用户点击相应博文的索引值存储起来，方便从数据库中查找相应博文的内容
-    //因为涉及到用户刷新的问题，所以把索引值存储在window.name下面
-    //这个属性不会因为页面的刷新而更新为空
-    [types.BLOG_INDEX](state,index){
-        window.name = state.data[index].todo;
-    },
     //把读取出来的博文信息存储在了blogMsg这个属性下面，读取的时候直接从这里读取就可以
+    //并且将读取的数据放入window.name下面，以便刷新的时候直接从window.name中获取数据
+    //防止刷新后vuex中数据消失
     [types.READ_BLOG](state,res){
         state.blogMsg = res.data;
+        window.name = res.data;
     }
 }
 
@@ -37,25 +34,11 @@ const actions = {
     },
     //用于将用户点击的博文索引存储起来，方便从数据库中读取相应博文的信息
     openBlog({commit},index){
-        // commit(types.BLOG_INDEX,index)
-        console.log(index);
         axios({
             method: 'get',
             url: 'index.php/index/readblogmsg',
             params:{
                 "index":index
-            }
-        }).then((res)=>{
-            commit(types.READ_BLOG,res);
-        })
-    },
-    //搜索相应索引值下的博文信息，并且把博文信息存储起来，索引值存储在window.name属性下面
-    readBlog({commit,state}){
-        axios({
-            method: 'get',
-            url: 'index.php/index/readblogmsg',
-            params:{
-                "index":window.name
             }
         }).then((res)=>{
             commit(types.READ_BLOG,res);

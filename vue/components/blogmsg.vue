@@ -5,19 +5,22 @@
 </template>
 
 <script>
-    import { mapActions,mapGetters} from 'vuex'
+    import { mapState } from 'vuex'
     export default{
         data:function(){
             return{
 
             }
         },
-        created(){
-//            return this.$store.dispatch('readBlog')
-//            this.readBlog();
-        },
-        computed:mapGetters(['blogMsg']),
-//        methods:mapActions(['readBlog'])
+        computed:mapState({
+            blogMsg: function(state){
+                if(state.blog.blogMsg == ""){
+                    return window.name;
+                }else{
+                    return state.blog.blogMsg;
+                }
+            }
+        })
     }
 </script>
 
